@@ -176,7 +176,7 @@ color: black;
 }
 .carousel .carousel-dots {
     position: absolute;
-    top: 90%;
+    top: 85%;
     left: 50%;
     display: flex;
 }
@@ -212,6 +212,226 @@ color: black;
     from{opacity: 0.4;}
     to{opacity: 1;}
 }
+
+/*      first section       */
+section{
+    transform: translateY(-50px);
+    background-color: #fafafa;
+
+}
+section .firstSectionWrap{
+    margin: 0 105px;
+}
+section .firstSectionWrap .firstSectionWrap-first{
+    display: flex;
+    padding: 0 15px;
+
+
+}
+section .firstSectionWrap .firstSectionWrap-first .firstSection-first-icon{
+     border-radius: 50%;
+     color: #fff;
+     background-color: #62a6fd;
+     margin: 0 90px;
+     padding: 15px;
+     
+}
+section .firstSectionWrap .firstSectionWrap-first .firstSection-first-icon img{
+    width: 50px;
+    height: 50px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+
+}
+
+
+section .firstSectionWrap .firstSectionWrap-first .firstSection-first-container {
+    padding: 24px;
+    flex: 1;
+    text-align: center;
+
+
+}
+section .firstSectionWrap .firstSectionWrap-first .firstSection-first-container h3{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    margin-top: 22px;
+    color: #fff;
+
+}
+section .firstSectionWrap .firstSectionWrap-first .firstSection-first-container p{
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 25px;
+
+
+
+}
+section .firstSectionWrap .firstSectionWrap-first .container-color-1{
+    background-color: #2f89fc;
+
+}
+section .firstSectionWrap .firstSectionWrap-first .container-color-2{
+    background-color: #0c75fb;
+
+}
+section .firstSectionWrap-second {
+   display: flex;
+   padding:0 15px ;
+}
+section .firstSectionWrap-second .firstSectionWrap-second-img{
+    background-image: url("https://preview.colorlib.com/theme/drcare/images/about.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 774px;
+    flex: 2;
+
+}
+section .firstSectionWrap-second .firstSection-second{
+    flex: 3;
+    padding: 48px 0;
+
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container{
+    padding-right: 30px;
+    padding-left: 48px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    }
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container h6{
+text-transform: uppercase;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 2px;
+margin-bottom: 5px;
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container h1{
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 1.5;
+    color: rgb(0 0 0 / 80%);
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container p{
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgb(0 0 0 / 60%);
+}
+
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp{
+    display: flex;
+    padding-left: 48px;
+    margin-left: 48px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont
+{
+    display: flex;
+    padding: 0 10px;
+    
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp  .margin
+{
+    margin: 0 39px 40px -15px;
+    
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont .icon
+{
+border:solid #2f89fc 2px;
+width: 40px;
+height: 40px;
+padding: 10px;
+margin-right: 15px;
+position: relative;
+margin-top: 15px;
+
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont .icon img
+{
+width: 35px;
+height: 35px;
+position: absolute;
+top: 22%;
+left: 22%;
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont .text
+{
+width: 201px;
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont .text h3
+{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: rgb(0 0 0 / 80%);
+}
+section .firstSectionWrap-second .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont .text p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgb(0 0 0 / 60%);
+}
+section  .sec-3{
+    background-image: url("https://preview.colorlib.com/theme/drcare/images/bg_3.jpg");
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% -39px;
+   color: white;
+   position: relative;
+   padding: 64px 0;
+
+}
+section  .sec-3 .sec-3-overlay{
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 64px 0;
+    background-color: #2f89fc;   
+}
+section .sec-3 .sec-3-overlay .container{
+    margin: 0 105px;
+    display: flex;
+}
+section .sec-3 .sec-3-overlay .container .container-1 {
+    padding: 10px;
+}
+section .sec-3 .sec-3-overlay .container .container-1 h2{
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: white;
+}
+section .sec-3 .sec-3-overlay .container .container-1 p{
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+section .sec-3 .sec-3-overlay .container .container-2 {
+margin: 40px 0 0 150px;
+    
+}
+section .sec-3 .sec-3-overlay .container .container-2 a{
+    background-color: #ff8000;
+border-color: #ff8000;
+border-radius: 27px;
+color: white;
+text-decoration: none;
+padding: 18px 20px;
+font-size: 16px;
+font-weight: 300;
+    
+}
+
+
+
 
 
  /*         footer          */
