@@ -163,26 +163,33 @@ nav .brand span {
 }
 
 /*          Carousel            */
+.carousel .slide {
+  padding-bottom: 60px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
 
 .carousel .slide-1 {
-  position: relative;
-  width: 100%;
   background-image: url("https://preview.colorlib.com/theme/drcare/images/bg_1.jpg");
   background-repeat: no-repeat;
   height: 600px;
 }
 .carousel .slide-2 {
-  position: relative;
-  width: 100%;
   background-image: url("https://preview.colorlib.com/theme/drcare/images/bg_2.jpg");
   background-repeat: no-repeat;
   height: 600px;
 }
 
 .carousel .slide .carouselOn {
-  position: absolute;
-  top: 30%;
-  left: 8%;
+  margin: 0px 10% ;
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 45%;
+  justify-content: flex-end;
+  padding-top: 90px;
+
 }
 
 .carousel .slide .carouselOn h1 {
@@ -190,17 +197,19 @@ nav .brand span {
   color: #2f89fc;
   line-height: 1.2;
   font-weight: 900;
-  margin-bottom: 10px;
 }
-.carousel .slide .carouselOn h1 span {
+.carousel .slide .carouselOn .carouselOn-h1-black {
   color: #000;
+ 
 }
+
+
 .carousel .slide .carouselOn-p {
   font-size: 18px;
   font-weight: 400;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.8);
-  margin-bottom: 10px;
+  margin: 20px 0px;
   text-transform: uppercase;
 }
 .carousel .slide .carouselOn-btn {
@@ -208,7 +217,6 @@ nav .brand span {
 }
 .carousel .carousel-button {
   background-color: #ff8000;
-  border-color: #ff8000;
   border-radius: 27px;
   color: white;
   text-decoration: none;
@@ -216,25 +224,29 @@ nav .brand span {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
+  border: none;
+
 }
 .carousel .carousel-dots {
-  position: absolute;
-  top: 85%;
-  left: 50%;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.carousel .carousel-dots p {
+.carousel .carousel-dots div {
   color: #fff;
-  padding: 1px;
   border: 0.5px solid #e6e6e6;
   border-radius: 50%;
-  margin-left: 5px;
+  margin:0px 2.5px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.carousel .carousel-dots p i {
-  font-size: 14px;
-}
-.carousel .carousel-dots p .far {
+
+.carousel .carousel-dots div .far {
   border: none;
   color: #e6e6e6;
   cursor: pointer;
@@ -243,7 +255,7 @@ nav .brand span {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 2s;
   animation-name: fade;
-  animation-duration: 2s;
+  animation-duration: 0s;
 }
 @keyframes fade {
   from {
@@ -261,19 +273,47 @@ nav .brand span {
     opacity: 1;
   }
 }
+@media only screen and (max-width:990px){
+  .carousel .slide .carouselOn h1 {
+    font-size: 30px;
+   
+  }
+}.carousel .slide .carouselOn  {
+   
+  padding-top: 0px;
+  align-items: flex-start;
 
+ 
+}
+@media only screen and (max-width:760px){
+  .carousel .slide .carouselOn  {
+   
+    align-items: center;
+
+    margin: 0px 3%;
+    height: 70%;
+    justify-content: flex-end;
+    text-align: center;
+    width: auto;
+   
+  }
+  
+
+  
+}
 /*      first section       */
 section {
   background-color: #fafafa;
+  margin: -50px 105px 0;
+  z-index: 4;
+  opacity: 1;
+
 }
 section .firstSectionWrap {
   /* transform: translateY(-50px); */
-  margin-top: -50px;
-  margin: 0 105px;
 }
 section .firstSectionWrap .firstSectionWrap-first {
   display: flex;
-  padding: 0 15px;
 }
 section .firstSectionWrap .firstSectionWrap-first .firstSection-first-icon {
   border-radius: 50%;
