@@ -62,6 +62,15 @@ nav .brand span {
   padding-left: 10px;
 }
 
+@media only screen and (max-width:770px ){
+  .wrap-container{
+    display: none;
+  }
+  nav{
+    padding:10px 0px;
+  }
+
+}
 .nav-block-icon i {
   font-size: 15px;
 }
@@ -73,10 +82,14 @@ nav .brand span {
   font-size: 16px;
 }
 
+
+
 .nav-second {
   display: flex;
-  margin: 0 100px;
+  margin: 0 7%;
   padding: 10px;
+  align-items: center;
+  justify-content: space-between;
 }
 .nav-second ul {
   display: flex;
@@ -92,15 +105,61 @@ nav .brand span {
   color: black;
 }
 .nav-second-button {
-  display: flex;
   background-color: #ff8000;
-  border-color: #ff8000;
   border-radius: 25px;
   color: white;
   text-decoration: none;
-  padding: 12px 20px;
   font-size: 15px;
-  margin-left: 320px;
+  padding: 12px 24px;
+  border: none;
+
+}
+
+.menu-bar{
+ display: none;
+
+}
+
+
+@media only screen and (max-width:990px){
+  .nav-second{
+    margin: 0px;
+    padding: 15px;
+    background-color: #000;
+    align-items: flex-start;
+
+    }
+    .menu-bar{
+      display: block;
+      color: #FFFFFF80;
+      padding: 10px;
+      background-color: transparent;
+      border: none;
+      letter-spacing: 4px;
+      cursor: pointer;
+      font-size: 16px;
+
+    }
+  
+    .nav-second  ul {
+      display: flex;
+      flex-direction: column;
+    }
+    .nav-second li {
+
+      list-style: none;
+      padding: 18px;
+      font-size: 12px;
+    }
+    .nav-second li a {
+      
+      color: #e6e6e6;
+    }
+    .li-container{
+      display: none;
+
+    }
+
 }
 
 /*          Carousel            */
