@@ -12,7 +12,7 @@ nav {
 }
 
 .nav-wrap {
-    margin:0 5%;
+  margin: 0 5%;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
@@ -62,14 +62,13 @@ nav .brand span {
   padding-left: 10px;
 }
 
-@media only screen and (max-width:770px ){
-  .wrap-container{
+@media only screen and (max-width: 770px) {
+  .wrap-container {
     display: none;
   }
-  nav{
-    padding:10px 0px;
+  nav {
+    padding: 10px 0px;
   }
-
 }
 .nav-block-icon i {
   font-size: 15px;
@@ -81,8 +80,6 @@ nav .brand span {
   transform: scale(1, 1.2);
   font-size: 16px;
 }
-
-
 
 .nav-second {
   display: flex;
@@ -112,84 +109,76 @@ nav .brand span {
   font-size: 15px;
   padding: 12px 24px;
   border: none;
-
 }
 
-.menu-bar{
- display: none;
-
+.menu-bar {
+  display: none;
 }
 
-
-@media only screen and (max-width:990px){
-  .nav-second{
+@media only screen and (max-width: 990px) {
+  .nav-second {
     margin: 0px;
     padding: 15px;
     background-color: #000;
     align-items: flex-start;
+  }
+  .menu-bar {
+    display: block;
+    color: #ffffff80;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
-    }
-    .menu-bar{
-      display: block;
-      color: #FFFFFF80;
-      padding: 10px;
-      background-color: transparent;
-      border: none;
-      letter-spacing: 4px;
-      cursor: pointer;
-      font-size: 16px;
-
-    }
-  
-    .nav-second  ul {
-      display: flex;
-      flex-direction: column;
-    }
-    .nav-second li {
-
-      list-style: none;
-      padding: 18px;
-      font-size: 12px;
-    }
-    .nav-second li a {
-      
-      color: #e6e6e6;
-    }
-    .li-container{
-      display: none;
-
-    }
-
+  .nav-second ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-second li {
+    list-style: none;
+    padding: 18px;
+    font-size: 12px;
+  }
+  .nav-second li a {
+    color: #e6e6e6;
+  }
+  .li-container {
+    display: none;
+  }
 }
 
 /*          Carousel            */
 .carousel .slide {
   padding-bottom: 60px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .carousel .slide-1 {
   background-image: url("https://preview.colorlib.com/theme/drcare/images/bg_1.jpg");
   background-repeat: no-repeat;
   height: 600px;
+  background-position: top center;
 }
 .carousel .slide-2 {
   background-image: url("https://preview.colorlib.com/theme/drcare/images/bg_2.jpg");
   background-repeat: no-repeat;
   height: 600px;
+  background-position: top center;
 }
 
 .carousel .slide .carouselOn {
-  margin: 0px 10% ;
+  margin: 0px 10%;
   display: flex;
   flex-direction: column;
   height: 70%;
   width: 45%;
   justify-content: flex-end;
   padding-top: 90px;
-
 }
 
 .carousel .slide .carouselOn h1 {
@@ -200,9 +189,7 @@ justify-content: space-between;
 }
 .carousel .slide .carouselOn .carouselOn-h1-black {
   color: #000;
- 
 }
-
 
 .carousel .slide .carouselOn-p {
   font-size: 18px;
@@ -225,19 +212,19 @@ justify-content: space-between;
   line-height: 1.5;
   font-weight: 300;
   border: none;
-
 }
 .carousel .carousel-dots {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
 .carousel .carousel-dots div {
   color: #fff;
   border: 0.5px solid #e6e6e6;
   border-radius: 50%;
-  margin:0px 2.5px;
+  margin: 0px 2.5px;
   height: 20px;
   width: 20px;
   display: flex;
@@ -273,21 +260,17 @@ justify-content: space-between;
     opacity: 1;
   }
 }
-@media only screen and (max-width:990px){
+@media only screen and (max-width: 990px) {
   .carousel .slide .carouselOn h1 {
     font-size: 30px;
-   
   }
-}.carousel .slide .carouselOn  {
-   
+}
+.carousel .slide .carouselOn {
   padding-top: 0px;
   align-items: flex-start;
-
- 
 }
-@media only screen and (max-width:760px){
-  .carousel .slide .carouselOn  {
-   
+@media only screen and (max-width: 760px) {
+  .carousel .slide .carouselOn {
     align-items: center;
 
     margin: 0px 3%;
@@ -295,13 +278,8 @@ justify-content: space-between;
     justify-content: flex-end;
     text-align: center;
     width: auto;
-   
   }
-  
-
-  
 }
-
 
 /*      first section       */
 section {
@@ -309,26 +287,23 @@ section {
   margin: -50px 105px 0;
   z-index: 4;
   opacity: 1;
-
 }
-@media only screen and (max-width: 1320px){
-  section{
+@media only screen and (max-width: 1320px) {
+  section {
     margin: -50px 3% 0;
   }
 }
-@media only screen and (max-width: 1220px){
-  section{
-    margin: -50px 20px 0;
+@media only screen and (max-width: 1220px) {
+  section {
+    margin: -50px 15px 0;
   }
 }
 
-@media only screen and (max-width: 770px){
+@media only screen and (max-width: 770px) {
   section .firstSectionWrap .firstSectionWrap-first {
     flex-direction: column;
-
   }
 }
-
 
 section .firstSectionWrap .firstSectionWrap-first {
   display: flex;
@@ -342,7 +317,6 @@ section .firstSectionWrap .firstSectionWrap-first .firstSection-first-icon {
   align-items: center;
   width: 80px;
   height: 80px;
-  
 }
 
 section .firstSectionWrap .firstSectionWrap-first .firstSection-first-icon img {
@@ -388,29 +362,38 @@ section .firstSectionWrap .firstSectionWrap-first .container-color-1 {
 section .firstSectionWrap .firstSectionWrap-first .container-color-2 {
   background-color: #0c75fb;
 }
+
+/*      second section       */
+
 section .firstSectionWrap-second {
   display: flex;
-  padding: 0 15px;
 }
 section .firstSectionWrap-second .firstSectionWrap-second-img {
   background-image: url("https://preview.colorlib.com/theme/drcare/images/about.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 774px;
-  flex: 2;
+  min-height: 762px;
+  flex: 4;
+  background-position: top center;
 }
 section .firstSectionWrap-second .firstSection-second {
-  flex: 3;
-  padding: 48px 0;
+  flex: 5;
+  margin-left: 48px;
+  padding: 48px 30px 48px 48px;
 }
+section
+  .firstSectionWrap-second
+  .firstSection-second
+  .firstSectionWrap-second-container {
+  display: flex;
+  flex-direction: column;
+}
+
 section
   .firstSectionWrap-second
   .firstSection-second
   .firstSectionWrap-second-container
   .container {
-  padding-right: 30px;
-  padding-left: 48px;
-  margin-left: 48px;
   margin-bottom: 40px;
 }
 section
@@ -453,9 +436,7 @@ section
   .firstSectionWrap-second-container
   .container-sp {
   display: flex;
-  padding-left: 48px;
-  margin-left: 48px;
-  margin-bottom: 40px;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 section
@@ -465,16 +446,35 @@ section
   .container-sp
   .contaner-cont {
   display: flex;
-  padding: 0 10px;
+  margin-bottom: 40px;
+  width: 45%;
 }
-section
-  .firstSectionWrap-second
-  .firstSection-second
-  .firstSectionWrap-second-container
-  .container-sp
-  .margin {
-  margin: 0 39px 40px -15px;
+
+@media only screen and (max-width: 990px) {
+  section
+    .firstSectionWrap-second
+    .firstSection-second
+    .firstSectionWrap-second-container
+    .container-sp
+    .contaner-cont {
+    width: 100%;
+  }
 }
+@media only screen and (max-width: 770px) {
+  section .firstSectionWrap-second {
+    flex-direction: column;
+  }
+  section .firstSectionWrap-second .firstSectionWrap-second-img {
+    min-height: 300px !important;
+    margin: 40px 0;
+    background-position: top center;
+  }
+  section .firstSectionWrap-second .firstSection-second {
+    margin: 0;
+    padding: 0;
+  }
+}
+
 section
   .firstSectionWrap-second
   .firstSection-second
@@ -487,8 +487,10 @@ section
   height: 40px;
   padding: 10px;
   margin-right: 15px;
-  position: relative;
-  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 section
   .firstSectionWrap-second
@@ -500,19 +502,8 @@ section
   img {
   width: 35px;
   height: 35px;
-  position: absolute;
-  top: 22%;
-  left: 22%;
 }
-section
-  .firstSectionWrap-second
-  .firstSection-second
-  .firstSectionWrap-second-container
-  .container-sp
-  .contaner-cont
-  .text {
-  width: 201px;
-}
+
 section
   .firstSectionWrap-second
   .firstSection-second
