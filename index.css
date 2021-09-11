@@ -649,9 +649,8 @@ nav .brand span {
   justify-content: space-around;
   background-color: rgb(242 242 242);
   cursor: pointer;
-  position: relative;
 }
-.sec-4-container-1-container-2 .buttons a {
+.sec-4-container-1-container-2 .buttons .link {
   color: black;
   font-size: 22px;
   font-weight: 600;
@@ -662,7 +661,7 @@ nav .brand span {
   justify-content: center;
   padding: 35px 0;
 }
-.sec-4-container-1-container-2 .buttons a:hover {
+.sec-4-container-1-container-2 .buttons .link:hover {
   color: white !important;
   background-color: #2f89fc;
 }
@@ -674,7 +673,8 @@ nav .brand span {
 
 .arrow-down {
   position: absolute;
-  left: 32%;
+  left: 46%;
+  bottom: -10px;
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -687,7 +687,6 @@ nav .brand span {
   background-color: rgb(242 242 242);
   margin-top: 20px;
 }
-
 
 .sec-4 .firstSectionWrap-second-img-sec4 {
   background-image: url("https://preview.colorlib.com/theme/drcare/images/xdept-1.jpg.pagespeed.ic.xHZoDZzjeF.webp");
