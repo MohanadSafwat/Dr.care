@@ -796,6 +796,48 @@ nav .brand span {
   color: rgb(0 0 0 / 60%);
 }
 
+
+
+@media only screen and (max-width: 1320px) {
+  .sec-4-container-1 {
+    margin: -50px 3% 0;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .sec-4-container-1 {
+    margin: -50px 15px 0;
+    padding: 0;
+  }
+}
+.sec-4 .firstSectionWrap-second-img-sec4 {
+  background-image: url("https://preview.colorlib.com/theme/drcare/images/xdept-1.jpg.pagespeed.ic.xHZoDZzjeF.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  width: 100% ;
+  background-position: top center;
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 990px) {
+  .sec-4-container-1-container-2-container  {
+    flex-direction: column-reverse;
+  }
+  .sec-4 .firstSection-second .firstSectionWrap-second-container .container-sp  {
+    flex-direction: column;
+  }
+  .sec-4 .firstSection-second .firstSectionWrap-second-container .container-sp .contaner-cont {
+    width: 100%;
+  }
+
+.sec-4-container-1-container-2 .buttons .link {
+  font-size: 16px;
+
+  padding: 25px 0;
+}
+}
+
+
 /*         footer          */
 
 footer {
