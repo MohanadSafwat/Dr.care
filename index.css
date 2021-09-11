@@ -977,7 +977,44 @@ nav .brand span {
 }
 
 
+@media only screen and (max-width: 1320px) {
+  .sec-5-container-1 {
+    margin: -50px 3% 0;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .sec-5-container-1 {
+    margin: -50px 15px 0;
+    padding: 0;
+  }
+}
 
+@media only screen and (max-width: 990px) {
+  .sec-5-container-1-container-2-container {
+    width: 48%;
+    margin-bottom:40px ;
+  }
+  .sec-5-container-1-container-2 {
+    
+    flex-wrap: wrap;}
+  
+  
+
+  
+}
+@media only screen and (max-width: 770px) {
+  
+  .sec-5-container-1-container-2-container {
+    width: 99%;
+    margin-bottom:40px ;
+  }
+  .sec-5-container-1-container-2 {
+    
+    flex-wrap: wrap;}
+  
+  
+
+}
 
 /*         footer          */
 
