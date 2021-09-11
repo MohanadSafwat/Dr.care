@@ -242,93 +242,97 @@
         <div class="sec-4-container-1">
             <div class="sec-4-container-1-container-1">
                 <h3>Departments</h3>
-                <h1>Clinic Departments</h1>
+                <h1 >Clinic Departments</h1>
                 <p>Separated they live in. A small river named Duden flows by their place and supplies it with the
                     necessary regelialia. It is a paradisematic country</p>
             </div>
             <div class="sec-4-container-1-container-2">
                 <div class="buttons">
-                    <a href="#" class="activ">Neurology</a>
-
-                    <a href="#" class="">Surgical</a>
-                    <a href="#">Dental</a>
-                    <a href="#">Ophthalmology</a>
-                    <a href="#">Cardiology</a>
+                    <a onclick="sec4('neu')" id="sec4neu" class="active">Neurology</a>
+                    <a onclick="sec4('sur')" id="sec4sur">Surgical</a>
+                    <a onclick="sec4('den')" id="sec4den">Dental</a>
+                    <a onclick="sec4('op')" id="sec4op">Ophthalmology</a>
+                    <a onclick="sec4('car')" id="sec4car">Cardiology</a>
 
                 </div>
-                <!-- <div class="arrow-down"></div> -->
+                <div class="arrow-down"></div>
+              
                 <div class="sec-4-container-1-container-2-container">
-                        
-                        <div class="firstSection-second">
-                            <div class="firstSectionWrap-second-container">
-                                <div class="container">
-                                    <h1>Neurological Deparments
-                                    </h1>
-                                </div>
-                                <div class="container">
-                                    <p>
-                                        On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word.
-                                    </p>
-                                </div>
-                                <div class="container-sp">
-                                    <div class="contaner-cont">
-                                        <div class="icon">
-                                            <img src="icons/patches.svg">
-                                        </div>
-                                        <div class="text">
-                                            <h3>PRIMARY CARE
-                                            </h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                                        </div>
-                                    </div>
-                                    <div class="contaner-cont">
-                                        <div class="icon">
-                                            <img src="icons/dropper.svg">
-                                        </div>
-                                        <div class="text">
-                                            <h3>LAB TEST
-                                            </h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                                        </div>
-                                    </div>
-                                    <div class="contaner-cont">
-                                        <div class="icon">
-                                            <img src="icons/experiment-results.svg">
-                                        </div>
-                                        <div class="text">
-                                            <h3>SYMPTOM CHECK
-        
-                                            </h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                                        </div>
-                                    </div>
-                                    <div class="contaner-cont">
-                                        <div class="icon">
-                                            <img src="icons/electrocardiogram.svg">
-                                        </div>
-                                        <div class="text">
-                                            <h3>HEART RATE
-                                            </h3>
-                                            <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
-                                        </div>
-                                        
-                                    </div>
-                                   
-        
-                                </div>
-                               
-                            </div>
-                            
-                        </div>
-                        <div class="firstSectionWrap-second-img">
-                        </div>
-                    </div>
-        
-                </div>
 
+                    <div class="firstSection-second">
+                        <div class="firstSectionWrap-second-container">
+                            <div class="container">
+                                <h1 id="sec4head"> Neurological Deparments
+
+                                </h1>
+                            </div>
+                            <div class="container">
+                                <p>
+                                    On her way she met a copy. The copy warned the Little Blind Text, that where it came
+                                    from it would have been rewritten a thousand times and everything that was left from
+                                    its origin would be the word.
+                                </p>
+                            </div>
+                            <div class="container-sp">
+                                <div class="contaner-cont">
+                                    <div class="icon">
+                                        <img src="icons/patches.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h3>PRIMARY CARE
+                                        </h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                    </div>
+                                </div>
+                                <div class="contaner-cont">
+                                    <div class="icon">
+                                        <img src="icons/dropper.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h3>LAB TEST
+                                        </h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                    </div>
+                                </div>
+                                <div class="contaner-cont">
+                                    <div class="icon">
+                                        <img src="icons/experiment-results.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h3>SYMPTOM CHECK
+
+                                        </h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                    </div>
+                                </div>
+                                <div class="contaner-cont">
+                                    <div class="icon">
+                                        <img src="icons/electrocardiogram.svg">
+                                    </div>
+                                    <div class="text">
+                                        <h3>HEART RATE
+                                        </h3>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia.</p>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <div id="sec4img" class="firstSectionWrap-second-img-sec4">
+                    </div>
+                </div>
 
             </div>
+
+
         </div>
+    </div>
     </div>
 
 
@@ -470,6 +474,7 @@
 
     <script src="carousel.js"></script>
     <script src="nav.js"></script>
+    <script src="sec-4.js"></script>
 </body>
 
 </html>
