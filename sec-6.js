@@ -1,9 +1,8 @@
-var current =1;
+var current = 1;
 // document.getElementsByClassName("sec6-active-slide")[0].attributes[1].value.split('-')[1];
 
-
 function dotFunction(order) {
-   current = order;
+  current = order;
   currentSlideFunction(current);
 }
 
@@ -19,7 +18,9 @@ function currentSlideFunction(cur) {
   var dot4 = document.getElementById("sec6-dot-4");
   var dot5 = document.getElementById("sec6-dot-5");
 
-  document.getElementsByClassName("active-dot")[0].classList.remove("active-dot");
+  document
+    .getElementsByClassName("active-dot")[0]
+    .classList.remove("active-dot");
 
   if (cur == 1) {
     slideDiv1.style.display = "flex";
@@ -37,7 +38,6 @@ function currentSlideFunction(cur) {
     slideDiv4.style.display = "none";
     slideDiv5.style.display = "none";
     dot2.classList.add("active-dot");
-
   } else if (cur == 3) {
     slideDiv1.style.display = "none";
     slideDiv2.style.display = "none";
@@ -46,7 +46,6 @@ function currentSlideFunction(cur) {
     slideDiv4.style.display = "none";
     slideDiv5.style.display = "none";
     dot3.classList.add("active-dot");
-
   } else if (cur == 4) {
     slideDiv1.style.display = "none";
     slideDiv2.style.display = "none";
@@ -55,7 +54,6 @@ function currentSlideFunction(cur) {
 
     slideDiv5.style.display = "none";
     dot4.classList.add("active-dot");
-
   } else if (cur == 5) {
     slideDiv1.style.display = "none";
     slideDiv2.style.display = "none";
@@ -64,20 +62,16 @@ function currentSlideFunction(cur) {
     slideDiv5.style.display = "flex";
 
     dot5.classList.add("active-dot");
-
   }
 }
 
 setInterval(function () {
   if (current < 5) {
-
     current++;
 
     currentSlideFunction(current);
-  }
-  else {
-
-    current=1;
+  } else {
+    current = 1;
 
     currentSlideFunction(current);
   }
