@@ -1137,7 +1137,6 @@ nav .brand span {
   flex-direction: column;
   background-color: #3089fc;
   flex: 1;
-  padding: 48px 48px 48px 120px;
 }
 
 .sec-7-container-1 p {
@@ -1149,12 +1148,14 @@ nav .brand span {
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.8;
+  padding: 48px 48px 0 120px;
 }
 .sec-7-container-1 h1 {
   font-size: 40px;
   color: #fff;
   line-height: 1.5;
   margin-bottom: 15px;
+  padding: 0 48px 0 120px;
 }
 .sec-7-container-1 h3 {
   font-size: 16px;
@@ -1163,12 +1164,14 @@ nav .brand span {
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 40px;
   width: 80%;
+  padding: 0 48px 0 120px;
 }
 .sec-7-container-1 .inputs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  padding: 0 48px 60px 120px;
 }
 .sec-7-container-1 .inputs input {
   border-top: none;
@@ -1185,20 +1188,20 @@ nav .brand span {
 
   font-size: 16px;
 }
-input[type="date"]:not(.has-value):before {
+/* input[type="date"]:not(.has-value):before {
   color: rgba(255, 255, 255, 0.9) !important;
   content: attr(placeholder);
-}
-input[type="date"]:not(.has-value):before {
+} */
+/* input[type="date"]:not(.has-value):before {
   color: rgba(255, 255, 255, 0.9) !important;
   content: attr(placeholder);
-}
-input[type="date"]:in-range::-webkit-datetime-edit-year-field,
+} */
+/* input[type="date"]:in-range::-webkit-datetime-edit-year-field,
 input[type="date"]:in-range::-webkit-datetime-edit-month-field,
 input[type="date"]:in-range::-webkit-datetime-edit-day-field,
 input[type="date"]:in-range::-webkit-datetime-edit-text {
   color: transparent;
-}
+} */
 .sec-7-container-1 .inputs select {
   border-top: none;
   border-left: none;
@@ -1269,8 +1272,51 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
 
 .sec-7-container-2 {
   display: flex;
-  flex-direction: column;
   flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 40px 0;
+}
+.sec-7-container-2-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  padding: 60px;
+  margin: 10px;
+  text-align: center;
+  width: 20%;
+}
+.sec-7-container-2-container h1 {
+  font-weight: 800;
+  font-size: 44px;
+  color: #2f89fc;
+  line-height: 1.8;
+}
+
+.sec-7-container-2-container h3 {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.8);
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+.sec-7-about {
+  writing-mode: vertical-rl;
+  text-orientation: sideways;
+  transform: rotate(180deg);
+  text-align: center;
+  
+}
+.sec-7-about h1{
+  line-height: 1.5;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    letter-spacing: 4px; 
+    margin: 0 0 0 70px;
+
+  
 }
 
 /* section 8 start */
@@ -1383,8 +1429,6 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
   padding: 10px;
 }
 
-
-
 @media only screen and (max-width: 1320px) {
   .sec-8-container-1 {
     margin: -50px 3% 0;
@@ -1397,14 +1441,13 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
   }
 }
 
-
 @media only screen and (max-width: 770px) {
   .sec-8-container-1-container-2-container {
     width: 99%;
-position: relative;
-margin-top: 50px;
+    position: relative;
+    margin-top: 50px;
   }
- 
+
   .sec-8-container-1-container-2 {
     flex-wrap: wrap;
   }
@@ -1522,16 +1565,15 @@ margin-top: 50px;
   color: #fff;
 }
 
-
-.sec-9-last{
+.sec-9-last {
   display: flex;
-  width:  90%;
+  width: 90%;
   padding-top: 20px;
-align-items: center;
+  align-items: center;
   justify-content: space-between;
 }
-.sec-9-last button{
-    padding:0.5rem;
+.sec-9-last button {
+  padding: 0.5rem;
   background-color: #2f89fc;
   border-radius: 25px;
   color: white;
@@ -1541,18 +1583,18 @@ align-items: center;
   border: none;
 }
 
-.sec-9-last a{
-color: rgb(179 179 179);
-text-decoration: none;
-font-size: 15px;
-padding: 0 10px 0;
+.sec-9-last a {
+  color: rgb(179 179 179);
+  text-decoration: none;
+  font-size: 15px;
+  padding: 0 10px 0;
 }
 
-.sec-9-last .sec-9-admin{
+.sec-9-last .sec-9-admin {
   color: #2f89fc;
   text-decoration: none;
   font-size: 15px;
-  }
+}
 
 @media only screen and (max-width: 1320px) {
   .sec-9-container-1 {
@@ -1579,7 +1621,6 @@ padding: 0 10px 0;
     width: 99%;
     margin-bottom: 40px;
     align-items: flex-start;
-
   }
   .sec-9-last {
     padding: 20px 20px 0;
