@@ -1818,3 +1818,38 @@ footer .footer-block .footer-block-bk form .submit {
 footer .footer-block .footer-block-bk form .submit:hover {
   background-color: #ff8000;
 }
+@media only screen and (max-width: 1320px) {
+  .footer-blocks {
+    margin: -50px 3% 0 !important;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .footer-blocks{
+    margin: -50px 15px 0 !important;
+    padding: 0;
+  }
+  footer .footer-block .footer-block-bk form input {
+    width: 250px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+ 
+  footer .footer-block .footer-block-bk form input {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 900px) {
+ 
+  footer .footer-block .footer-block-bk form input {
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 770px) {
+  footer .footer-blocks{
+    flex-direction: column;
+  }
+  footer .footer-block .footer-block-bk form input {
+    width: 100%;
+  }
+}
