@@ -1138,7 +1138,6 @@ nav .brand span {
   background-color: #3089fc;
   flex: 1;
   padding: 48px 48px 60px 120px;
-
 }
 
 .sec-7-container-1 p {
@@ -1308,19 +1307,15 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
   text-orientation: sideways;
   transform: rotate(180deg);
   text-align: center;
-  
 }
-.sec-7-about h1{
+.sec-7-about h1 {
   line-height: 1.5;
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    letter-spacing: 4px; 
-    margin: 0 0 0 70px;
-
-  
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  letter-spacing: 4px;
+  margin: 0 0 0 70px;
 }
-
 
 @media only screen and (max-width: 1320px) {
   .sec-7-container-1 {
@@ -1340,31 +1335,27 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
 }
 
 @media only screen and (max-width: 990px) {
-  .sec-7{
+  .sec-7 {
     flex-direction: column;
   }
- 
+
   .sec-7-about {
     display: none;
   }
-  .sec-7-container-2-container{
-        width: 27%;
-        margin: 15px;
-
+  .sec-7-container-2-container {
+    width: 27%;
+    margin: 15px;
   }
 }
 @media only screen and (max-width: 770px) {
-  .sec-7-container-2-container{
+  .sec-7-container-2-container {
     width: 99%;
     margin-bottom: 20px;
   }
   .sec-7-about {
     display: none;
   }
-
- 
 }
-
 
 /* section 8 start */
 
