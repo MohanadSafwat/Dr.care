@@ -1137,6 +1137,8 @@ nav .brand span {
   flex-direction: column;
   background-color: #3089fc;
   flex: 1;
+  padding: 48px 48px 60px 120px;
+
 }
 
 .sec-7-container-1 p {
@@ -1148,14 +1150,14 @@ nav .brand span {
   text-transform: uppercase;
   letter-spacing: 2px;
   line-height: 1.8;
-  padding: 48px 48px 0 120px;
+  /* padding: 48px 48px 0 120px; */
 }
 .sec-7-container-1 h1 {
   font-size: 40px;
   color: #fff;
   line-height: 1.5;
   margin-bottom: 15px;
-  padding: 0 48px 0 120px;
+  /* padding: 0 48px 0 120px; */
 }
 .sec-7-container-1 h3 {
   font-size: 16px;
@@ -1164,14 +1166,14 @@ nav .brand span {
   color: rgba(255, 255, 255, 0.9);
   margin-bottom: 40px;
   width: 80%;
-  padding: 0 48px 0 120px;
+  /* padding: 0 48px 0 120px; */
 }
 .sec-7-container-1 .inputs {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 0 48px 60px 120px;
+  /* padding: 0 48px 60px 120px; */
 }
 .sec-7-container-1 .inputs input {
   border-top: none;
@@ -1318,6 +1320,51 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
 
   
 }
+
+
+@media only screen and (max-width: 1320px) {
+  .sec-7-container-1 {
+    padding: 50px 30px 50px 30px;
+  }
+  .sec-7-about {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1220px) {
+  .sec-7-container-1 {
+    padding: 50px 15px;
+  }
+  .sec-7-about {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sec-7{
+    flex-direction: column;
+  }
+ 
+  .sec-7-about {
+    display: none;
+  }
+  .sec-7-container-2-container{
+        width: 27%;
+        margin: 15px;
+
+  }
+}
+@media only screen and (max-width: 770px) {
+  .sec-7-container-2-container{
+    width: 99%;
+    margin-bottom: 20px;
+  }
+  .sec-7-about {
+    display: none;
+  }
+
+ 
+}
+
 
 /* section 8 start */
 
