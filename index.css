@@ -1633,6 +1633,7 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
 .sec-9-container-1-container-2 {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .sec-9-container-1-container-2-container {
   display: flex;
@@ -1727,6 +1728,35 @@ input[type="date"]:in-range::-webkit-datetime-edit-text {
   color: #2f89fc;
   text-decoration: none;
   font-size: 15px;
+}
+.sec-9-dots{
+  display: flex;
+  margin: 30px 0 50px;
+
+}
+.blog-dot{
+  color: #2f89fc;
+  width: 40px !important;
+  height: 40px !important;
+  line-height: 40px;
+  font-weight: 400;
+  border: #2f89fc solid 1px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 3px;
+
+
+}
+.blog-active-dot{
+  color: #fff;
+  background-color: #2f89fc ;
+  width: 40px !important;
+  height: 40px !important;
+ 
+  border: #2f89fc solid 1px;
+  
+
+
 }
 
 @media only screen and (max-width: 1320px) {
