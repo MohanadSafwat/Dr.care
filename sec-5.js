@@ -35,6 +35,42 @@ function sec5in(order) {
 
 
   }
+  else if (order == 5) {
+    // unfade(document.getElementById("sec5-4") );
+
+    document.getElementById("sec5-5").style.display = "block";
+    document.getElementById("sec5-head5").style.color = "#007bff";
+    document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px -10px";
+
+
+  }
+  else if (order == 6) {
+    // unfade(document.getElementById("sec5-4") );
+
+    document.getElementById("sec5-6").style.display = "block";
+    document.getElementById("sec5-head6").style.color = "#007bff";
+    document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px -10px";
+
+
+  }
+  else if (order == 7) {
+    // unfade(document.getElementById("sec5-4") );
+
+    document.getElementById("sec5-7").style.display = "block";
+    document.getElementById("sec5-head7").style.color = "#007bff";
+    document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px -10px";
+
+
+  }
+  else if (order == 8) {
+    // unfade(document.getElementById("sec5-4") );
+
+    document.getElementById("sec5-8").style.display = "block";
+    document.getElementById("sec5-head8").style.color = "#007bff";
+    document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px -10px";
+
+
+  }
 }
 
 function sec5out(order) {
@@ -73,6 +109,42 @@ function sec5out(order) {
 
 
     }
+    else if (order == 5) {
+      // fade(document.getElementById("sec5-4"))
+
+    document.getElementById("sec5-5").style.display = "none";
+    document.getElementById("sec5-head5").style.color = "#000";
+    document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px 0";
+
+
+  }
+  else if (order == 6) {
+    // fade(document.getElementById("sec5-4"))
+
+  document.getElementById("sec5-6").style.display = "none";
+  document.getElementById("sec5-head6").style.color = "#000";
+  document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px 0";
+
+
+}
+else if (order == 7) {
+  // fade(document.getElementById("sec5-4"))
+
+document.getElementById("sec5-7").style.display = "none";
+document.getElementById("sec5-head7").style.color = "#000";
+document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px 0";
+
+
+}
+else if (order == 8) {
+  // fade(document.getElementById("sec5-4"))
+
+document.getElementById("sec5-8").style.display = "none";
+document.getElementById("sec5-head8").style.color = "#000";
+document.getElementsByClassName("sec5img")[order-1].style.backgroundPosition ="0px 0";
+
+
+}
   }
 //   function fade(element) {
 //     var op = 1;  // initial opacity
