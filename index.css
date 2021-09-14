@@ -10,7 +10,12 @@ nav {
   padding: 24px 16px;
   height: fit-content;
 }
-
+.nav-active{
+  color: #2f89fc !important;
+}
+.nav-active:hover{
+  color: #000 !important;
+}
 .nav-wrap {
   margin: 0 5%;
   display: flex;
@@ -143,10 +148,19 @@ nav .brand span {
     font-size: 12px;
   }
   .nav-second li a {
-    color: #e6e6e6;
+    color: rgba(255, 255, 255, 0.7)
+  }
+  .nav-second li a:hover{
+    color: #fff;
   }
   .li-container {
     display: none;
+  }
+  .nav-active{
+    color: #fff !important;
+  }
+  .nav-active:hover{
+    color: #fff !important;
   }
 }
 
