@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Dr.care</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800,300" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4d7f136959.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
+        
+    <style>
+    #map {
+        height: 600px;
+    }
+    </style>
+</head>
+
+<body>
+    <!--      Nav Bar Begin     -->
+    <nav>
+        <div class="nav-wrap">
+            <div class="brand">Dr.<span>care</span></div>
+            <div class="wrap-container">
+                <div class="wrap">
+                    <div class="nav-block-icon"><i class="fas fas-map fa-map"></i></div>
+                    <div class="nav-block-content">
+                        <p>Address: 198 West 21th Street,Suite 721 New York NY 10016</p>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="nav-block-icon"><i class="fab fa-telegram-plane"></i></div>
+                    <div class="nav-block-content">
+                        <p>Email: youremail@email.com </p>
+                    </div>
+                </div>
+                <div class="wrap">
+                    <div class="nav-block-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div class="nav-block-content">
+                        <p>Phone: + 1235 2355 98</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="nav-second">
+        <div>
+            <button onclick="navToggle()" class="menu-bar"> <i class="fas fa-bars"></i>MENU</button>
+            <div class="li-container">
+                <ul>
+                    <li><a  href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="doctor.html">DOCTOR</a></li>
+                    <li><a href="departments.html">DEPARTMENTS</a></li>
+                    <li><a href="pricing.html">PRICING</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a class="nav-active" href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="button-container"><button href="#" class="nav-second-button">Make An Appointment</button></div>
+
+
+    </div>
+
+    <!--      Nav Bar End     -->
+
+
+
+    <div class="divider">
+        <div class="sec-3-overlay"></div>
+        <div class="container">
+            <div class="container-1">
+                <h2>Contact Us
+
+
+                </h2>
+                <div style="display: flex;">
+                    <a href="index.html">HOME ></a>
+                    <p>CONTACT ></p>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+
+    <div class="sec-10">
+        <div class="sec-10-container-1">
+            <iframe
+            width="600"
+            height="600"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAbU35J_oGs8pCCIY4FexuRt-QvSN-a6n4
+              &q=Space+Needle,Seattle+WA">
+          </iframe>
+        </div>
+        <div class="sec-10-container-2">
+
+            <div class="sec-10-container-2-container">
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="sec-10-container-2-container">
+                <input type="text" placeholder="Your Email">
+
+            </div>
+            <div class="sec-10-container-2-container">
+                <input type="text" placeholder="Subject">
+
+            </div>
+            <div class="sec-10-container-2-container">
+                <textarea cols="30" rows="8" placeholder="Message "></textarea>
+
+            </div>
+            <div class="sec-10-container-2-container">
+                <a href="#" type="submit">Send Message</a>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+    <!--      footer Begin     -->
+    <footer>
+        <div class="footer-blocks">
+            <div class="footer-block">
+                <div class="footer-block-bk">
+                    <p class="footer-brand">Dr.<span>care</span></p>
+                </div>
+                <div class="footer-block-bk">
+                    <p class="footer-p-block-1">Far far away, behind the word mountains, far from the countries
+                        Vokalia
+                        and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="footer-block-bk">
+                    <h2>Have a Question?</h2>
+                    <div class="footer-block-bk-bk"><span class="footer-span-block-1"><i
+                                class="fas fa-map-marker-alt"></i></span>
+                        <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+                    </div>
+                    <div class="footer-block-bk-bk"><span class="footer-span-block-1"><i
+                                class="fas fa-phone-alt"></i></span>
+                        <p> +2 392 3929 210</p>
+                    </div>
+                    <div class="footer-block-bk-bk"><span class="footer-span-block-1"><i
+                                class="fas fa-envelope"></i></span>
+                        <p>info@yourdomain.com</p>
+                    </div>
+                </div>
+
+                <div class="footer-block-bk-bk social">
+                    <ul>
+                        <li><a href="#" class="social-block"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#" class="social-block"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#" class="social-block"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer-block">
+                <div class="footer-block-bk">
+                    <h2>Links</h2>
+                    <ul>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Home</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>About</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Service</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Departments</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Contact</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-block-bk">
+                    <h2>Services</h2>
+                    <ul>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Neurolgy</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Dentist</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Ophthalmology</a>
+                        </li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Cardiology</a></li>
+                        <li><a href="#"><span><i class="fas fa-long-arrow-alt-right"></i></span>Surgery</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-block">
+                <h2>Recent Blog</h2>
+                <div class="footer-block-bk">
+                    <div class="footer-block-img">
+                        <img class="footer-img" alt="image_1"
+                            src="https://preview.colorlib.com/theme/drcare/images/image_1.jpg">
+                        <div>
+                            <h3 class="footer-block-img-h3"><a href="#">Even the all-powerful Pointing has no
+                                    control
+                                    about</a></h3>
+                            <div class="footer-block-img">
+                                <div class="footer-img-text"><a href="#"><span><i
+                                                class="fas fa-calendar-alt"></i></span> Dec 25, 2018</a></div>
+                                <div class="footer-img-text"><a href="#"><span><i class="fas fa-user"></i></span>
+                                        Admin</a></div>
+                                <div class="footer-img-text"><a href="#"><span><i
+                                                class="far fa-comment-dots"></i></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-block-bk">
+                    <div class="footer-block-img">
+                        <img class="footer-img" alt="image_1"
+                            src="https://preview.colorlib.com/theme/drcare/images/image_2.jpg">
+                        <div>
+                            <h3 class="footer-block-img-h3"><a href="#">
+                                    Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="footer-block-img">
+                                <div class="footer-img-text"><a href="#"><span><i
+                                                class="fas fa-calendar-alt"></i></span> Dec 25, 2018</a></div>
+                                <div class="footer-img-text"><a href="#"><span><i class="fas fa-user"></i></span>
+                                        Admin</a></div>
+                                <div class="footer-img-text"><a href="#"><span><i
+                                                class="far fa-comment-dots"></i></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-block">
+                <div class="footer-block-bk">
+                    <h2>Opening Hours</h2>
+                    <div class="footer-hours"> <i class="fas fa-clock"></i><span>We are open 24/7</span></div>
+                </div>
+                <div class="footer-block-bk">
+                    <h2>Subscribe Us!</h2>
+                    <form>
+                        <input class="input" type="email" placeholder="Enter Email Address">
+                        <input class="submit" type="sumbit" value="Subscribe">
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center;">Copyright ©2021 All rights reserved | This template is made with <i
+                class="fas fa-heart"></i> by Mohanad</div>
+
+
+
+    </footer>
+
+    <!--      footer End     -->
+
+    <script src="carousel.js"></script>
+    <script src="nav.js"></script>
+    <script src="sec-4.js"></script>
+    <script src="sec-5.js"></script>
+    <script src="sec-6.js"></script>
+    <script src="sec-8.js"></script>
+    <script>
+        
+        var MarkerAnnotation = mapkit.MarkerAnnotation,
+            clickAnnotation;
+        var sfo = new mapkit.Coordinate(37.616934, -122.383790),
+            work = new mapkit.Coordinate(37.3349, -122.0090201);
+        
+        mapkit.init({
+            authorizationCallback: function(done) {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "/services/jwt");
+                xhr.addEventListener("load", function() {
+                    done(this.responseText);
+                });
+                xhr.send();
+            }
+        });
+        var map = new mapkit.Map("map");
+        
+        // Setting properties on creation:
+        var sfoAnnotation = new MarkerAnnotation(sfo, { color: "#f4a56d", title: "SFO", glyphText: "✈️" });
+        
+        // Setting properties after creation:
+        var workAnnotation = new MarkerAnnotation(work);
+        workAnnotation.color = "#969696"; 
+        workAnnotation.title = "Work";
+        workAnnotation.subtitle = "Apple Park";
+        workAnnotation.selected = "true";
+        workAnnotation.glyphText = "";
+        
+        // Add and show both annotations on the map
+        map.showItems([sfoAnnotation, workAnnotation]);
+        
+        // Drop an annotation where a Shift-click is detected:
+        map.element.addEventListener("click", function(event) {
+            if(!event.shiftKey) {
+                return;
+            }
+        
+            if(clickAnnotation) {
+                map.removeAnnotation(clickAnnotation);
+            }
+        
+            var coordinate = map.convertPointOnPageToCoordinate(new DOMPoint(event.pageX, event.pageY));
+            clickAnnotation = new MarkerAnnotation(coordinate, {
+                title: "Click!",
+                color: "#c969e0"
+            });
+            map.addAnnotation(clickAnnotation);
+        });
+        
+        </script>
+
+</body>
+
+</html>
+
