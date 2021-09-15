@@ -15,12 +15,12 @@ function currentSlideFunc() {
   var slideDivTwo = document.getElementById("slide-2");
 
   if (currentSlide == 1) {
-    slideDivOne.style.display = "block";
+    slideDivOne.style.display = "flex";
     slideDivTwo.style.display = "none";
   }
   if (currentSlide == 2) {
     slideDivOne.style.display = "none";
-    slideDivTwo.style.display = "block";
+    slideDivTwo.style.display = "flex";
   }
 }
 
